@@ -1,0 +1,10 @@
+package academy.devdojo.maratonajava.javacore.Bintroductionmethods.test;
+
+import academy.devdojo.maratonajava.javacore.Bintroductionmethods.domain.Calculator;
+
+public class CalculatorTest {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        calculator.sumTwoNumbers();
+    }
+}
