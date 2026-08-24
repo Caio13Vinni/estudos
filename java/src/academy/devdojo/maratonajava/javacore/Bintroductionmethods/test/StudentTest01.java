@@ -17,16 +17,11 @@ public class StudentTest01 {
         student02.gender = 'F';
         student02.age = 67;
 
-        System.out.println(student01.name);
-        System.out.println(student01.age);
-        System.out.println(student01.gender);
 
         print.print(student01);
 
         System.out.println("-------------------");
 
-        System.out.println(student02.name);
-        System.out.println(student02.age);
-        System.out.println(student02.gender);
+        print.print(student02);
     }
 }
