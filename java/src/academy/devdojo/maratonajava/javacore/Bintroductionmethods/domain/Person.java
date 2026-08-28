@@ -5,8 +5,8 @@ public class Person {
     private int age;
 
         public void print(){
-            System.out.println(this.name);
-            System.out.println(this.age);
+            System.out.println(getName());
+            System.out.println(getAge());
         }
 
         public void setName(String name){
@@ -15,12 +15,17 @@ public class Person {
 
         public void setAge(int age){
             if (age < 0){
+                System.out.println("Error invalid Age");
             return;
             }
             this.age = age;
         }
 
         public String getName(){
+        return name;
+    }
 
+    public int getAge(){
+        return age;
     }
 }

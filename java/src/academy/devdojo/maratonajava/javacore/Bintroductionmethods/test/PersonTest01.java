@@ -11,7 +11,7 @@ public class PersonTest01 {
         */
 
         person.setName("jiraya");
-        person.setAge(-44);
+        person.setAge(-123);
 
         person.print();
 
