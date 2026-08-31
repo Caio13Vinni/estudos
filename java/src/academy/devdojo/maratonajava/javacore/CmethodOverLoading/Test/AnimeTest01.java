@@ -6,7 +6,7 @@ public class AnimeTest01 {
     public static void main(String[] args) {
         Anime anime = new Anime();
 
-        anime.init("Akuda Drive", "Tv " , 12);
+        anime.init("Akuda Drive", "Tv " , 12, "Finishied");
 
         anime.print();
     }
